@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON数据预览 - Gaoxiang Jin</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+      border-bottom: 3px solid #4CAF50;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #555;
+      margin-top: 30px;
+      background: #fff;
+      padding: 10px;
+      border-left: 4px solid #2196F3;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .item {
+      padding: 15px;
+      margin: 10px 0;
+      background: #f9f9f9;
+      border-left: 3px solid #FF9800;
+      border-radius: 4px;
+    }
+    .item h3 {
+      margin: 0 0 10px 0;
+      color: #333;
+    }
+    .item p {
+      margin: 5px 0;
+      color: #666;
+    }
+    .count {
+      display: inline-block;
+      background: #4CAF50;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-left: 10px;
+    }
+    .error {
+      background: #ffebee;
+      color: #c62828;
+      padding: 15px;
+      border-left: 4px solid #c62828;
+      border-radius: 4px;
+    }
+    .success {
+      background: #e8f5e9;
+      color: #2e7d32;
+      padding: 15px;
+      border-left: 4px solid #4CAF50;
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 100px;
+      max-height: 100px;
+      margin: 10px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    .gallery-preview {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .gallery-item {
+      text-align: center;
+      background: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      flex: 0 0 calc(20% - 10px);
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .stat-card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .stat-card h3 {
+      margin: 0 0 10px 0;
+      font-size: 36px;
+    }
+    .stat-card p {
+      margin: 0;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <h1>📊 网站数据预览</h1>
+  <div id="status"></div>
+  <div id="stats"></div>
+  <div id="content"></div>
+
+  <script>
+    async function loadAndDisplay() {
+      const statusDiv = document.getElementById('status');
+      const statsDiv = document.getElementById('stats');
+      const contentDiv = document.getElementById('content');
+
+      try {
+        const response = await fetch('./data/content.json');
+        if (!response.ok) throw new Error('无法加载数据文件');
+        
+        const data = await response.json();
+        
+        // 显示成功消息
+        statusDiv.innerHTML = `
+          <div class="success">
+            ✅ <strong>数据加载成功!</strong> 文件路径: data/content.json
+          </div>
+        `;
+
+        // 统计数据
+        const stats = {
+          education: data.education?.length || 0,
+          publications: data.publications?.length || 0,
+          telescopes: data.telescopes?.length || 0,
+          conferences: data.conferences?.length || 0,
+          programming: data.programming?.length || 0,
+          research: data.research?.length || 0,
+          gallery: data.gallery?.length || 0
+        };
+
+        statsDiv.innerHTML = `
+          <div class="stats">
+            <div class="stat-card"><h3>${stats.education}</h3><p>教育经历</p></div>
+            <div class="stat-card"><h3>${stats.publications}</h3><p>论文</p></div>
+            <div class="stat-card"><h3>${stats.telescopes}</h3><p>望远镜</p></div>
+            <div class="stat-card"><h3>${stats.conferences}</h3><p>会议</p></div>
+            <div class="stat-card"><h3>${stats.programming}</h3><p>编程工具</p></div>
+            <div class="stat-card"><h3>${stats.research}</h3><p>研究项目</p></div>
+            <div class="stat-card"><h3>${stats.gallery}</h3><p>图库照片</p></div>
+          </div>
+        `;
+
+        // 显示详细内容
+        let html = '';
+
+        // Education
+        html += `<div class="section">
+          <h2>🎓 教育经历 <span class="count">${stats.education}</span></h2>`;
+        data.education?.forEach(item => {
+          html += `<div class="item">
+            <h3>${item.institution}</h3>
+            <p><strong>${item.period}</strong> - ${item.location}</p>
+            <p>${item.degree}</p>
+            ${item.thesis ? `<p><em>${item.thesis}</em></p>` : ''}
+          </div>`;
+        });
+        html += `</div>`;
+
+        // Publications
+        html += `<div class="section">
+          <h2>📚 论文列表 <span class="count">${stats.publications}</span></h2>`;
+        data.publications?.forEach(item => {
+          html += `<div class="item">
+            <h3>${item.title}</h3>
+            <p><strong>${item.year}</strong> - <em>${item.journal}</em></p>
+            <p>${item.authors}</p>
+            ${item.pdfUrl ? `<p>📄 PDF: <a href="${item.pdfUrl}" target="_blank">${item.pdfSize}</a></p>` : ''}
+          </div>`;
+        });
+        html += `</div>`;
+
+        // Telescopes
+        html += `<div class="section">
+          <h2>🔭 望远镜观测时间 <span class="count">${stats.telescopes}</span></h2>`;
+        data.telescopes?.forEach(item => {
+          html += `<div class="item">
+            <img src="${item.image}" alt="${item.name}">
+            <h3>${item.name}</h3>
+            <p><strong>${item.role}</strong> - ${item.time} (${item.year})</p>
+            <p>${item.type} - ${item.instrument}</p>
+          </div>`;
+        });
+        html += `</div>`;
+
+        // Conferences
+        html += `<div class="section">
+          <h2>🎤 会议经历 <span class="count">${stats.conferences}</span></h2>`;
+        data.conferences?.forEach(item => {
+          html += `<div class="item">
+            <h3>${item.title}</h3>
+            <p><strong>${item.date}</strong> - ${item.location}</p>
+          </div>`;
+        });
+        html += `</div>`;
+
+        // Research
+        html += `<div class="section">
+          <h2>🔬 研究项目 <span class="count">${stats.research}</span></h2>`;
+        data.research?.forEach(item => {
+          html += `<div class="item">
+            <img src="${item.image}" alt="${item.title}">
+            <h3>${item.title}</h3>
+            <p><strong>${item.category}</strong> - ${item.date}</p>
+            <p>${item.description.substring(0, 200)}...</p>
+          </div>`;
+        });
+        html += `</div>`;
+
+        // Gallery
+        html += `<div class="section">
+          <h2>🖼️ 图库 <span class="count">${stats.gallery}</span></h2>
+          <div class="gallery-preview">`;
+        data.gallery?.forEach(item => {
+          html += `<div class="gallery-item">
+            <img src="${item.image}" alt="${item.title}">
+            <p><strong>${item.title}</strong></p>
+            <p><small>${item.category}</small></p>
+          </div>`;
+        });
+        html += `</div></div>`;
+
+        contentDiv.innerHTML = html;
+
+      } catch (error) {
+        statusDiv.innerHTML = `
+          <div class="error">
+            ❌ <strong>加载失败:</strong> ${error.message}
+            <br><br>
+            请确保:
+            <ul>
+              <li>data/content.json 文件存在</li>
+              <li>JSON格式正确</li>
+              <li>使用本地服务器运行(不能直接打开HTML)</li>
+            </ul>
+          </div>
+        `;
+      }
+    }
+
+    loadAndDisplay();
+  </script>
+</body>
+</html>

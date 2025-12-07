@@ -1,0 +1,508 @@
+{
+  "education": [
+    {
+      "institution": "Max Planck Institute for Astrophysics / Ludwig-Maximilians-Universität München",
+      "period": "2022 — now",
+      "location": "Munich, Germany",
+      "degree": "PhD, Astrophysics, Supervised by Prof. Guinevere Kauffmann",
+      "thesis": "Thesis: Resolved study on radio galaxies"
+    },
+    {
+      "institution": "National Astronomical Observatories, CAS / University of Chinese Academy of Sciences",
+      "period": "2019 — 2022",
+      "location": "Beijing, China",
+      "degree": "MSc, Astrophysics, Supervised by Prof. Y. Sophia Dai",
+      "thesis": "Thesis: Active galactic nulei in galaxy mergers"
+    },
+    {
+      "institution": "Nanjing University",
+      "period": "2015 — 2019",
+      "location": "Nanjing, China",
+      "degree": "BSc, Astronomy",
+      "thesis": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Comparison of Global HI and Hα Line Profiles in MaNGA Galaxy Pairs with FAST",
+      "year": "2025",
+      "journal": "The Astrophysical Journal 980, 267",
+      "authors": "<strong>Gaoxiang Jin</strong>, Y. Sophia Dai, Cheng Cheng, Cong Kevin Xu, et al.",
+      "arxiv": "https://arxiv.org/abs/2501.07286",
+      "pdfSize": "20.1MB"
+    },
+    {
+      "title": "The Host Galaxies of Radio AGN: New Views from Combining LoTSS and MaNGA Observations",
+      "year": "2025",
+      "journal": "Astronomy & Astrophysics 694, A309",
+      "authors": "<strong>Gaoxiang Jin</strong>, Guinevere Kauffmann, Philip N. Best, et al.",
+      "arxiv": "https://arxiv.org/abs/2409.01279",
+      "pdfSize": "19.5MB"
+    },
+    {
+      "title": "An IFU View of the Active Galactic Nuclei in MaNGA Galaxy Pairs",
+      "year": "2021",
+      "journal": "The Astrophysical Journal 923, 6",
+      "authors": "<strong>Gaoxiang Jin</strong>, Y. Sophia Dai, Hsi-An Pan, Lihwai Lin, et al.",
+      "arxiv": "https://arxiv.org/abs/2109.11084",
+      "pdfSize": "11.1MB"
+    },
+    {
+      "title": "The origin of double-peaked narrow emission-line galaxies in MaNGA Survey",
+      "year": "2025",
+      "journal": "Monthly Notices of the Royal Astronomical Society 537, 1561",
+      "authors": "Zhiyun Zhang, [5 authors], <strong>Gaoxiang Jin</strong>, et al.",
+      "arxiv": "https://arxiv.org/abs/2509.23298",
+      "pdfSize": ""
+    },
+    {
+      "title": "Spectroscopically Identified Emission Line Galaxy Pairs in the WISP Survey",
+      "year": "2021",
+      "journal": "The Astrophysical Journal 923, 156",
+      "authors": "Y. Sophia Dai, Matthew M Malkan, Harry I Teplitz, ..., <strong>Gaoxiang Jin</strong>, et al.",
+      "arxiv": "https://arxiv.org/abs/2110.07316",
+      "pdfSize": "1.2MB"
+    },
+    {
+      "title": "Spectral energy distribution similarity of the local galaxies and the 3.6 μm selected galaxies from the Spitzer Extended Deep Survey",
+      "year": "2021",
+      "journal": "Research in Astronomy and Astrophysics 21, 260",
+      "authors": "Cheng Cheng, Jia-Sheng Huang, Hai Xu, <strong>Gaoxiang Jin</strong>, et al.",
+      "arxiv": "https://arxiv.org/abs/2107.11683",
+      "pdfSize": "3.3MB"
+    },
+    {
+      "title": "Searching for low-redshift faint galaxies with MMT/Hectospec",
+      "year": "2021",
+      "journal": "The Astrophysical Journal Supplement Series 256, 4",
+      "authors": "Cheng Cheng, Jia-Sheng Huang, Christopher NA Willmer, ..., <strong>Gaoxiang Jin</strong>, et al.",
+      "arxiv": "https://arxiv.org/abs/2107.11682",
+      "pdfSize": "6.0MB"
+    },
+    {
+      "title": "A Complete 16 μm Selected Galaxy Sample at z~1: Mid-infrared Spectral Energy Distributions",
+      "year": "2021",
+      "journal": "The Astrophysical Journal 912, 161",
+      "authors": "J-S Huang, Y-S Dai, SP Willner, SM Faber, ..., <strong>G Jin</strong>, et al.",
+      "arxiv": "https://arxiv.org/abs/2103.04585",
+      "pdfSize": "2.1MB"
+    },
+    {
+      "title": "A Statistical Study of the Magnetic Imprints of X-class Solar Flares",
+      "year": "2019",
+      "journal": "The Astrophysical Journal 876, 133",
+      "authors": "Zekun Lu, Weiguang Cao, <strong>Gaoxiang Jin</strong>, Yining Zhang, Mingde Ding, Yang Guo",
+      "arxiv": "https://arxiv.org/abs/1803.08310",
+      "pdfSize": "2.4MB"
+    }
+  ],
+  "telescopes": [
+    {
+      "name": "Palomar 200-inch Hale Telescope (P200)",
+      "image": "./images/telescope/HaleTelescopeDome.jpg",
+      "role": "PI",
+      "time": "4 nights",
+      "year": "2022",
+      "type": "optical IFU",
+      "instrument": "Cosmic Web Imager (CWI)"
+    },
+    {
+      "name": "Xinglong 2.16 meter telescope",
+      "image": "./images/telescope/216.jpg",
+      "role": "PI",
+      "time": "0.5 night",
+      "year": "2020",
+      "type": "optical spectrum",
+      "instrument": "Long-slit spectrograph"
+    },
+    {
+      "name": "Aatacama Large Millimeter/submillimeter Array (ALMA)",
+      "image": "./images/telescope/alma.jpg",
+      "role": "CoI",
+      "year": "2025",
+      "type": "submillimeter spectrum",
+      "instrument": "ACA"
+    },
+    {
+      "name": "Five-hundred-meter Aperture Spherical radio Telescope (FAST)",
+      "image": "./images/telescope/fast.png",
+      "role": "CoI",
+      "time": "26 hours",
+      "year": "2020/2021",
+      "type": "radio spectrum",
+      "instrument": "L-band spectral line backend system"
+    },
+    {
+      "name": "James Clerk Maxwell Telescope (JCMT)",
+      "image": "./images/telescope/jcmt4.jpg",
+      "role": "CoI",
+      "time": "33 hours",
+      "year": "2022",
+      "type": "submillimeter spectrum",
+      "instrument": "ACSIS spectrometer"
+    },
+    {
+      "name": "Giant Metrewave Radio Telescope (GMRT)",
+      "image": "./images/telescope/gmrt12.jpg",
+      "role": "CoI",
+      "time": "20 hours",
+      "year": "2022",
+      "type": "radio spectrum",
+      "instrument": "GMRT L-band FE system"
+    }
+  ],
+  "conferences": [
+    {
+      "title": "The multiscale environment of AGN across cosmic time",
+      "date": "2025.11",
+      "location": "Munich, Germany"
+    },
+    {
+      "title": "MIAPbP: The next Generation of AGN Surveys",
+      "date": "2025.03",
+      "location": "Garching, Germany"
+    },
+    {
+      "title": "European Astronomical Society Annual Meeting 2024",
+      "date": "2024.07",
+      "location": "Padova, Italy"
+    },
+    {
+      "title": "LOFAR Family Meeting 2024",
+      "date": "2024.06",
+      "location": "Leiden, Netherlands"
+    },
+    {
+      "title": "Resolving Galaxy Ecosystems Across All Scales",
+      "date": "2023.12",
+      "location": "Hong Kong, China"
+    },
+    {
+      "title": "LOFAR Family Meeting 2023",
+      "date": "2023.06",
+      "location": "Olsztyn, Poland"
+    },
+    {
+      "title": "The Multiphase Circumgalactic Medium",
+      "date": "2023.03",
+      "location": "Ringberg castle, Germany"
+    },
+    {
+      "title": "SDSS 2021 Collaboration Meeting",
+      "date": "2021.08",
+      "location": "Online"
+    },
+    {
+      "title": "Month of MaNGA 2020",
+      "date": "2020.11",
+      "location": "Online"
+    }
+  ],
+  "programming": [
+    {
+      "name": "Python",
+      "url": "https://www.python.org",
+      "logo": "./images/software/python-logo-generic.svg",
+      "alt": "Python"
+    },
+    {
+      "name": "IDL",
+      "url": "https://www.nv5geospatialsoftware.com/Products/IDL",
+      "logo": "./images/software/IDL_IconLogo_web2.png",
+      "alt": "IDL"
+    },
+    {
+      "name": "Git",
+      "url": "https://git-scm.com/",
+      "logo": "./images/software/git.png",
+      "alt": "Git"
+    },
+    {
+      "name": "LaTeX",
+      "url": "https://www.latex-project.org",
+      "logo": "./images/software/LaTeX_logo.svg",
+      "alt": "LaTeX",
+      "class": "filter-green"
+    },
+    {
+      "name": "BASH",
+      "url": "https://www.gnu.org/software/bash",
+      "logo": "./images/software/shell_full_colored_dark.svg",
+      "alt": "BASH shell"
+    },
+    {
+      "name": "SQL",
+      "url": "https://en.wikipedia.org/wiki/SQL",
+      "logo": "./images/software/sql.png",
+      "alt": "SQL"
+    },
+    {
+      "name": "HTML&CSS",
+      "url": "https://html.spec.whatwg.org",
+      "logo": "./images/software/CSS3_and_HTML5_logos_and_wordmarks.svg",
+      "alt": "HTML&CSS"
+    },
+    {
+      "name": "matplotlib",
+      "url": "https://matplotlib.org",
+      "logo": "./images/software/matplotlib.svg",
+      "alt": "matplotlib"
+    },
+    {
+      "name": "Astropy",
+      "url": "https://www.astropy.org",
+      "logo": "./images/software/astropy_project_logo.svg",
+      "alt": "Astropy"
+    },
+    {
+      "name": "NumPy",
+      "url": "https://numpy.org",
+      "logo": "./images/software/numpylogo.svg",
+      "alt": "NumPy"
+    },
+    {
+      "name": "Jupyter",
+      "url": "https://jupyter.org",
+      "logo": "./images/software/jupyter.svg",
+      "alt": "Jupyter"
+    },
+    {
+      "name": "scikit-learn",
+      "url": "https://scikit-learn.org/",
+      "logo": "./images/software/scikit-learn-logo-small.png",
+      "alt": "scikit-learn"
+    },
+    {
+      "name": "Windows",
+      "url": "https://www.microsoft.com/en-us/windows/",
+      "logo": "./images/software/Windows_logo_and_wordmark_-_2021.svg",
+      "alt": "Windows"
+    },
+    {
+      "name": "Linux",
+      "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/",
+      "logo": "./images/software/Linux-Symbole.png",
+      "alt": "Linux"
+    }
+  ],
+  "research": [
+    {
+      "image": "./images/project/radioagn.jpg",
+      "category": "Galaxy Evolution",
+      "date": "2025A",
+      "title": "The host galaxies of radio AGN: New views from combining LoTSS and MaNGA observations",
+      "description": "The role of radio mode active galactic nuclei (AGN) feedback on galaxy evolution is still under debate. In this study we utilized a combination of radio continuum observations and optical integral field spectroscopic (IFS) data to explore the impact of radio AGN on the evolution of their host galaxies at global and subgalactic scales. We constructed a comprehensive radio-IFS sample comprising 5548 galaxies with redshift z < 0.15 by cross-matching the LOFAR Two-Metre Sky Survey (LoTSS) with the Mapping Nearby Galaxies at APO (MaNGA) survey. We revisited the tight linear radio continuum–star formation relation and quantify its intrinsic scatter, then used the relation to classify 616 radio-excess AGN with excessive radio luminosities over the values expected from their star formation rates. Massive radio AGN host galaxies are predominantly quiescent systems, but the quenching level shows no correlation with the jet luminosity. The mass assembly histories derived from the stellar population synthesis model fitting agree with the cosmological simulations incorporating radio-mode AGN feedback models. We observe that radio AGN hosts grow faster than a control sample of galaxies matched in stellar mass, and the quenching age (∼5 Gyr) is at larger lookback times than the typical radio jet age (< 1 Gyr). By stacking the spectra in different radial bins and comparing results for radio AGN hosts and their controls, we find emission line excess features in the nuclear region of radio AGN hosts. This excess is more prominent in low-luminosity, low-mass, and compact radio AGN. The [N II]/Hα ratios of the excessive emission line indicate that radio AGN or related jets are ionizing the surrounding interstellar medium in the vicinity of the nucleus. Our results support the scenario that the observed present-day radio AGN activity may help their host galaxies maintain quiescence through gas ionization and heating, but it is not responsible for the past quenching of their hosts."
+    },
+    {
+      "image": "./images/project/fastmanga.jpg",
+      "category": "Galaxy Evolution",
+      "date": "2025B",
+      "title": "Comparison of global HI and Hα line profiles in galaxy mergers",
+      "description": "In this article I explore how the interplay between atomic and ionized hydrogen reveals the hidden dynamics of galaxy mergers. Drawing on new observations from the Five‑hundred‑meter Aperture Spherical radio Telescope (FAST) and optical integral field spectroscopy from the MaNGA survey, I compare global H I and Hα line profiles across six galaxy pairs at different stages of interaction. The study highlights how asymmetries in atomic gas trace the disturbances caused by mergers, while ionized gas reflects the star‑forming regions and nuclear activity. A key finding is that the velocity offsets between the two phases decrease as galaxies progress from pre‑merger to post‑merger, suggesting that the merging process gradually aligns their kinematics. Despite the complexity of individual cases—ranging from star‑forming pairs to AGN hosts—the overall picture points to mergers as engines of gas redistribution and eventual mixing. This work demonstrates the value of combining deep single‑dish radio data with optical IFU spectroscopy to capture the multi‑phase nature of galactic evolution, offering a window into how galaxies consume, disturb, and ultimately settle their gas reservoirs during the transformative process of merging."
+    },
+    {
+      "image": "./images/project/merger_sequence.png",
+      "category": "Galaxy Evolution",
+      "date": "2022A",
+      "title": "An IFU view of AGNs in galaxy pairs",
+      "description": "In this article I explore the role of active galactic nuclei within interacting galaxies, drawing on the rich dataset provided by the MaNGA survey. By examining more than a thousand galaxies in pairs and mergers, I investigate whether the presence of AGNs is influenced by the merger sequence and how these energetic cores affect star formation. The study reveals that AGN fractions remain remarkably stable across different merger stages and are comparable to those in isolated galaxies, suggesting that the triggering of nuclear activity is less dependent on interactions than previously thought. At the same time, galaxies in pairs show a higher tendency toward passivity, especially in early merging phases, pointing to the importance of environmental conditions. Through spatially resolved spectroscopy, I highlight how AGNs in pairs exhibit inside‑out quenching patterns, with declining star formation toward the center, contrasting with star‑forming galaxies that display enhanced nuclear activity. Altogether, the work emphasizes that while mergers can dramatically reshape galaxies, their impact on AGN hosts is subtler, positioning these systems in transition between star‑forming and quiescent states."
+    }
+  ],
+  "gallery": [
+    {
+      "title": "München 慕尼黑",
+      "category": "travel",
+      "image": "./images/gallery/munich.webp"
+    },
+    {
+      "title": "Venezia 威尼斯",
+      "category": "travel",
+      "image": "./images/gallery/venice.jpg"
+    },
+    {
+      "title": "Ehrwald",
+      "category": "travel",
+      "image": "./images/gallery/ehrwald.jpg"
+    },
+    {
+      "title": "Schliersee",
+      "category": "travel",
+      "image": "./images/gallery/schliersee.jpg"
+    },
+    {
+      "title": "长沙 Changsha",
+      "category": "travel",
+      "image": "./images/gallery/changsha.jpg"
+    },
+    {
+      "title": "重庆 Chongqing",
+      "category": "travel",
+      "image": "./images/gallery/chongqing.jpg"
+    },
+    {
+      "title": "Kufstein",
+      "category": "travel",
+      "image": "./images/gallery/kufstein.jpg"
+    },
+    {
+      "title": "Paris 巴黎",
+      "category": "travel",
+      "image": "./images/gallery/paris.jpg"
+    },
+    {
+      "title": "Lindau",
+      "category": "travel",
+      "image": "./images/gallery/lindau.jpg"
+    },
+    {
+      "title": "成都 Chengdu",
+      "category": "travel",
+      "image": "./images/gallery/chengdu.jpg"
+    },
+    {
+      "title": "Normal People (2020)",
+      "category": "art",
+      "image": "./images/gallery/normalpeople.webp"
+    },
+    {
+      "title": "M81 & M82",
+      "category": "science",
+      "image": "./images/gallery/M81-82.webp"
+    },
+    {
+      "title": "Warszawa 华沙",
+      "category": "travel",
+      "image": "./images/gallery/warsaw.webp"
+    },
+    {
+      "title": "Ulm 乌尔姆",
+      "category": "travel",
+      "image": "./images/gallery/ulm.webp"
+    },
+    {
+      "title": "Olsztyn 奥尔什丁",
+      "category": "travel",
+      "image": "./images/gallery/olsztyn.webp"
+    },
+    {
+      "title": "Heidelberg 海德堡",
+      "category": "travel",
+      "image": "./images/gallery/heidelberg.webp"
+    },
+    {
+      "title": "Regensburg 雷根斯堡",
+      "category": "travel",
+      "image": "./images/gallery/regensburg.webp"
+    },
+    {
+      "title": "南京 Nanjing",
+      "category": "travel",
+      "image": "./images/gallery/nj.webp"
+    },
+    {
+      "title": "阿勒泰 Altay",
+      "category": "travel",
+      "image": "./images/gallery/alt.webp"
+    },
+    {
+      "title": "苏州 Suzhou",
+      "category": "travel",
+      "image": "./images/gallery/suzhou.webp"
+    },
+    {
+      "title": "张家界 Zhangjiajie",
+      "category": "travel",
+      "image": "./images/gallery/zjj.webp"
+    },
+    {
+      "title": "北京 Beijing",
+      "category": "travel",
+      "image": "./images/gallery/beijing.webp"
+    },
+    {
+      "title": "乌鲁木齐 Ürümqi",
+      "category": "travel",
+      "image": "./images/gallery/ulmq.webp"
+    },
+    {
+      "title": "Blood and Wine (2016)",
+      "category": "art",
+      "image": "./images/gallery/292030_screenshots_84456123.jpg"
+    },
+    {
+      "title": "上海 Shanghai",
+      "category": "travel",
+      "image": "./images/gallery/shanghai.webp"
+    },
+    {
+      "title": "呼伦贝尔 Hulunbuir",
+      "category": "travel",
+      "image": "./images/gallery/hlbe.webp"
+    },
+    {
+      "title": "三亚 Sanya",
+      "category": "travel",
+      "image": "./images/gallery/sanya.webp"
+    },
+    {
+      "title": "Bioshock: Infinite (2013)",
+      "category": "art",
+      "image": "./images/gallery/bioshock.webp"
+    },
+    {
+      "title": "Disco Elysium (2019)",
+      "category": "art",
+      "image": "./images/gallery/DiscoElysium.jpg"
+    },
+    {
+      "title": "The Grand Budapest Hotel (2014)",
+      "category": "art",
+      "image": "./images/gallery/The.Grand.Budapest.Hotel.2014.webp"
+    },
+    {
+      "title": "Jupiter",
+      "category": "science",
+      "image": "./images/gallery/jupiter.jpg"
+    },
+    {
+      "title": "Oppenheimer (2023)",
+      "category": "art",
+      "image": "./images/gallery/Oppenheimer.2023.webp"
+    },
+    {
+      "title": "Pluto North Pole",
+      "category": "science",
+      "image": "./images/gallery/PlutoNorthPole.jpg"
+    },
+    {
+      "title": "黄山 Huangshan",
+      "category": "travel",
+      "image": "./images/gallery/huangshan.jpg"
+    },
+    {
+      "title": "贵阳 Guiyang",
+      "category": "travel",
+      "image": "./images/gallery/guiyang.jpg"
+    },
+    {
+      "title": "ABZU",
+      "category": "Science",
+      "image": "./images/gallery/ABZU.jpg"
+    },
+    {
+      "title": "承德 Chengde",
+      "category": "travel",
+      "image": "./images/gallery/lamost.webp"
+    },
+    {
+      "title": "Vaduz 瓦杜兹",
+      "category": "travel",
+      "image": "./images/gallery/vaduz.jpg"
+    },
+    {
+      "title": "Borderlands 2 (2012)",
+      "category": "art",
+      "image": "./images/gallery/Borderlands.jpg"
+    }
+  ]
+}

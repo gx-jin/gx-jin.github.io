@@ -1,0 +1,17 @@
+    {
+      "title": "SDSS-MaNGA: Multi-wavelength Classified AGN and the Spatially Resolved Properties of their Host Galaxies",
+      "year": "Submitted",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "authors": "<strong>Gaoxiang Jin</strong>, Guinevere Kauffmann, Michael R. Blanton, et al.",
+      "pdfUrl": "",
+      "pdfSize": ""
+    },
+
+
+    ,
+    {
+      "name": "Microsoft365",
+      "url": "https://www.microsoft.com/en/microsoft-365",
+      "logo": "./images/365.png",
+      "alt": "Microsoft365"
+    }
