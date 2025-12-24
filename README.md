@@ -1,8 +1,8 @@
 # Personal Homepage | 个人主页
 
-🔗 **Live Site**: https://www.mpa-garching.mpg.de/~gxjin
+🔗 **Live Site**: https://www.mpa-garching.mpg.de/~gxjin  / https://gx-jin.github.io/
 
----
+<!-- ---
 
 ## 📝 How to Add Content | 如何添加内容
 
@@ -357,4 +357,4 @@ def generate_thumbnails(src_folder, dst_folder, thumb_size=(400, 225)):
 generate_thumbnails('../images/gallery/', '../images/gallery_thumbs/')
 ```
 
----
+--- -->
