@@ -25,8 +25,8 @@
   "publications": [
     {
       "title": "A Spatially Resolved Evolutionary Sequence of Multi-wavelength AGN Host Galaxies",
-      "year": "2025",
-      "journal": "arXiv:2512.11694",
+      "year": "2026",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
       "authors": "<strong>Gaoxiang Jin</strong>, Guinevere Kauffmann, et al.",
       "arxiv": "https://arxiv.org/abs/2512.11694",
       "pdfSize": "3.1MB"
@@ -54,6 +54,14 @@
       "authors": "<strong>Gaoxiang Jin</strong>, Y. Sophia Dai, Hsi-An Pan, Lihwai Lin, et al.",
       "arxiv": "https://arxiv.org/abs/2109.11084",
       "pdfSize": "11.1MB"
+    },
+    {
+      "title": "What factors shape the radio luminosity of star-forming galaxies? A new calibration from LoTSS-DR2",
+      "year": "2026",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "authors": "Shravya Shenoy, [7 authors], <strong>Gaoxiang Jin</strong>, et al.",
+      "arxiv": "https://arxiv.org/abs/2601.15374",
+      "pdfSize": "3.2MB"
     },
     {
       "title": "The origin of double-peaked narrow emission-line galaxies in MaNGA Survey",
