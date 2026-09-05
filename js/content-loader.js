@@ -10,7 +10,9 @@ class ContentLoader {
   // 加载 JSON 数据
   async loadData() {
     try {
-      const response = await fetch('./data/content.json');
+      const response = await fetch('./data/content.json?v=20260905-1', {
+        cache: 'no-cache'
+      });
       this.data = await response.json();
       return this.data;
     } catch (error) {
