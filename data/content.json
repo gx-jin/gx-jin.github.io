@@ -1,18 +1,27 @@
 {
+  "employment": [
+    {
+      "institution": "University of Groningen",
+      "period": "Sept 2026 — present",
+      "location": "Groningen, Netherlands",
+      "position": "Postdoctoral Researcher",
+      "department": "Kapteyn Astronomical Institute"
+    }
+  ],
   "education": [
     {
-      "institution": "Max Planck Institute for Astrophysics / Ludwig-Maximilians-Universität München",
-      "period": "2022 — now",
-      "location": "Munich, Germany",
-      "degree": "PhD, Astrophysics, Supervised by Prof. Guinevere Kauffmann",
-      "thesis": "Thesis: Resolved study on radio galaxies"
+      "institution": "Max Planck Institute for Astrophysics",
+      "period": "2022 — 2026",
+      "location": "Garching, Germany",
+      "degree": "PhD, Astrophysics",
+      "thesis": "Thesis: Spatially Resolved Study on AGN Host Galaxies"
     },
     {
       "institution": "National Astronomical Observatories, CAS / University of Chinese Academy of Sciences",
       "period": "2019 — 2022",
       "location": "Beijing, China",
-      "degree": "MSc, Astrophysics, Supervised by Prof. Y. Sophia Dai",
-      "thesis": "Thesis: Active galactic nulei in galaxy mergers"
+      "degree": "MSc, Astrophysics",
+      "thesis": "Thesis: Active Galactic Nuclei in Galaxy Mergers"
     },
     {
       "institution": "Nanjing University",
@@ -24,9 +33,9 @@
   ],
   "publications": [
     {
-      "title": "A Spatially Resolved Evolutionary Sequence of Multi-wavelength AGN Host Galaxies",
+      "title": "A Spatially Resolved Evolutionary Sequence of Multi-wavelength Selected AGN Host Galaxies",
       "year": "2026",
-      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "journal": "Monthly Notices of the Royal Astronomical Society 546, stg217",
       "authors": "<strong>Gaoxiang Jin</strong>, Guinevere Kauffmann, et al.",
       "arxiv": "https://arxiv.org/abs/2512.11694",
       "pdfSize": "3.1MB"
@@ -58,8 +67,8 @@
     {
       "title": "What factors shape the radio luminosity of star-forming galaxies? A new calibration from LoTSS-DR2",
       "year": "2026",
-      "journal": "Monthly Notices of the Royal Astronomical Society",
-      "authors": "Shravya Shenoy, [7 authors], <strong>Gaoxiang Jin</strong>, et al.",
+      "journal": "Monthly Notices of the Royal Astronomical Society 546, stg137",
+      "authors": "Shravya Shenoy, [8 authors], <strong>Gaoxiang Jin</strong>, et al.",
       "arxiv": "https://arxiv.org/abs/2601.15374",
       "pdfSize": "3.2MB"
     },
@@ -69,6 +78,14 @@
       "journal": "Monthly Notices of the Royal Astronomical Society 537, 1561",
       "authors": "Zhiyun Zhang, [5 authors], <strong>Gaoxiang Jin</strong>, et al.",
       "arxiv": "https://arxiv.org/abs/2509.23298",
+      "pdfSize": ""
+    },
+    {
+      "title": "Misaligned External Gas Acquisition Boosts Central Black Hole Activities",
+      "year": "2025",
+      "journal": "The Astrophysical Journal 994, 9",
+      "authors": "Yuren Zhou, [4 authors], <strong>Gaoxiang Jin</strong>, et al.",
+      "arxiv": "https://arxiv.org/abs/2507.00627",
       "pdfSize": ""
     },
     {
@@ -132,9 +149,10 @@
       "instrument": "Long-slit spectrograph"
     },
     {
-      "name": "Aatacama Large Millimeter/submillimeter Array (ALMA)",
+      "name": "Atacama Large Millimeter/submillimeter Array (ALMA)",
       "image": "./images/telescope/alma.jpg",
       "role": "CoI",
+      "time": "12 hours",
       "year": "2025",
       "type": "submillimeter spectrum",
       "instrument": "ACA"
@@ -143,8 +161,8 @@
       "name": "Five-hundred-meter Aperture Spherical radio Telescope (FAST)",
       "image": "./images/telescope/fast.png",
       "role": "CoI",
-      "time": "26 hours",
-      "year": "2020/2021",
+      "time": "43 hours",
+      "year": "2020/2025",
       "type": "radio spectrum",
       "instrument": "L-band spectral line backend system"
     },

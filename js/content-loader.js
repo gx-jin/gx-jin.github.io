@@ -19,10 +19,26 @@ class ContentLoader {
     }
   }
 
+  // 渲染工作经历
+  renderEmployment() {
+    const container = document.querySelector('#employment-list');
+    if (!container || !this.data.employment) return;
+
+    container.innerHTML = this.data.employment.map(job => `
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">${job.institution}</h4>
+        <span>${job.period} &emsp;&emsp; ${job.location}</span>
+        <p class="timeline-text">
+          ${job.position}
+          ${job.department ? `<br>${job.department}` : ''}
+        </p>
+      </li>
+    `).join('');
+  }
+
   // 渲染教育经历
   renderEducation() {
-    const containers = document.querySelectorAll('.timeline-list');
-    const container = containers[0]; // 第1个timeline-list
+    const container = document.querySelector('#education-list');
     if (!container || !this.data.education) return;
 
     container.innerHTML = this.data.education.map(edu => `
@@ -39,8 +55,7 @@ class ContentLoader {
 
   // 渲染论文列表
   renderPublications() {
-    const containers = document.querySelectorAll('.timeline-list');
-    const container = containers[1]; // 第2个timeline-list
+    const container = document.querySelector('#publication-list');
     if (!container || !this.data.publications) return;
 
     container.innerHTML = this.data.publications.map(pub => `
@@ -82,8 +97,7 @@ class ContentLoader {
 
   // 渲染会议列表
   renderConferences() {
-    const containers = document.querySelectorAll('.timeline-list');
-    const container = containers[2]; // 第3个timeline-list
+    const container = document.querySelector('#conference-list');
     if (!container || !this.data.conferences) return;
 
     container.innerHTML = this.data.conferences.map(conf => `
@@ -199,6 +213,7 @@ class ContentLoader {
       return;
     }
 
+    this.renderEmployment();
     this.renderEducation();
     this.renderPublications();
     this.renderTelescopes();

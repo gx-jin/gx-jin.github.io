@@ -59,7 +59,7 @@ In the `education` array:
   "institution": "University Name",
   "period": "2022 — now",
   "location": "City, Country",
-  "degree": "PhD, Field, Supervised by Prof. XXX",
+  "degree": "PhD, Field",
   "thesis": "Thesis: Title"
 }
 ```
